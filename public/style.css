@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #007C8C;
   color: #ffffff;
   height: 80px;
   padding: 10px;
@@ -75,7 +75,7 @@ select:hover {
 
 select:focus {
   border-color: #aaa;
-  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 1px 3px darkgray;
   box-shadow: 0 0 0 3px -moz-mac-focusring;
   color: #222;
   outline: none;
@@ -183,7 +183,7 @@ button {
   opacity: 1;
   right: 10px;
   background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  color: hsl(94, 88%, 38%);
   transition: all 1.2s;
 }
 
@@ -245,7 +245,7 @@ button {
 #toast.success {
   right: 10px;
   background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  color:  hsl(94, 88%, 38%);
   transition: all 0.5s;
 }
 .workout-type,
@@ -303,7 +303,7 @@ button {
 
 #toast.success {
   background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  color: hsl(94, 88%, 38%);
   animation-name: toast;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -359,7 +359,7 @@ form > button {
 
 #toast.success {
   background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  color:  hsl(94, 88%, 38%);
 }
 
 .prev-workout h3 {
