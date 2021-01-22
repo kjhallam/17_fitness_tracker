@@ -11,11 +11,11 @@ day: {
 exercise: [{
     type: {
         type: String,
-        // trim: true,
+        trim: true,
     },
     name: {
         type: String,
-        // trim: true,
+        trim: true,
     },
     weight: {
         type: Number,
@@ -35,10 +35,10 @@ exercise: [{
         default: 0,
     }
 }],
-totalDuration: {
-    type: Number,
-    // default: 0,
-}
+// totalDuration: {
+//     type: Number,
+//     default: 0,
+// }
    
 });
 
